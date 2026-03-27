@@ -367,8 +367,9 @@ public abstract interface class korlibs/util/SimpleStrReader {
 	public abstract fun getPos ()I
 	public abstract fun peekChar ()C
 	public abstract fun readChar ()C
-	public abstract fun skip (I)Lkorlibs/util/SimpleStrReader;
-	public abstract fun toStringContext ()Ljava/lang/String;
+	public fun skip (I)Lkorlibs/util/SimpleStrReader;
+	public static synthetic fun skip$default (Lkorlibs/util/SimpleStrReader;IILjava/lang/Object;)Lkorlibs/util/SimpleStrReader;
+	public fun toStringContext ()Ljava/lang/String;
 }
 
 public final class korlibs/util/SimpleStrReader$Companion {
